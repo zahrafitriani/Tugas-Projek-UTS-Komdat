@@ -1,4 +1,13 @@
-## Berkenalan Hasty Paste
+## Halo selamat datang pada Tugas-Projek-UTS-Komdat
+#Tugas ini dibuat dengan penuh cinta oleh kelompok ## :
+1. Siapa
+2. Siapa
+3. Siapa
+4. Siapa
+5. Siapa
+
+
+## Berkenalan dengan Hasty Paste
 ![](https://enchantedcode.co.uk/hasty-paste/assets/showcase.png)
 Hasty Paste adalah tempat paste yang cepat atau paste bin yang ditulis dengan Python menggunakan Quart. Biasanya digunakan untuk berbagi log debug dan informasi sejenis untuk membantu para pengembang dalam memberikan dukungan teknis. Tidak diperlukan Database, dan semuanya disimpan sebagai flat file. Hasty Paste menggunakan minimal resource pada Network Attached Storage (NAS) yang kita miliki dan tidak diperlukan JavaScript.
 
