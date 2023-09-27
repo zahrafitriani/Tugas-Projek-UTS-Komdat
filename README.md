@@ -1,10 +1,9 @@
 ## Halo selamat datang pada Tugas-Projek-UTS-Komdat
-#Tugas ini dibuat dengan penuh cinta oleh kelompok ## :
-1. Siapa
-2. Siapa
-3. Siapa
-4. Siapa
-5. Siapa
+**Tugas ini dibuat dengan penuh cinta oleh kelompok 6** :
+1. Ismy Fana Fillah
+2. Muhammad Tegar Santoso
+3. Stanislaus Brillant Kusuma Wijaya
+4. Zahra Fitriani (G6401201038)
 
 
 ## Berkenalan dengan Hasty Paste
