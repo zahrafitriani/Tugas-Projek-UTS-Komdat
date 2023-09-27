@@ -1,11 +1,12 @@
 ## Halo selamat datang pada Tugas-Projek-UTS-Komdat
 **Tugas ini dibuat dengan penuh cinta oleh kelompok 6** :
-|No.| Nama                    | NIM            |
-|1.|-------------------------|----------------|
-|2.| Ismy Fana Fillah        | G640120XXXX    |
-|3.| Muhammad Tegar Santoso  | G640120XXXX    |
-|4.| Stanislaus Brillant Kusuma Wijaya | G640120XXXX    |
-|5.| Zahra Fitriani          | G6401201038    |
+
+| No. | Nama                               | NIM         |
+| --- | ---------------------------------- | ----------- |
+| 1   | Ismy Fana Fillah                   | G640120XXXX |
+| 2   | Muhammad Tegar Santoso             | G640120XXXX |
+| 3   | Stanislaus Brillant Kusuma Wijaya  | G640120XXXX |
+| 4   | Zahra Fitriani                     | G6401201038 |
 
 
 
