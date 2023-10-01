@@ -3,7 +3,7 @@
 
 | No. | Nama                               | NIM         |
 | --- | ---------------------------------- | ----------- |
-| 1   | Ismy Fana Fillah                   | G640120XXXX |
+| 1   | Ismy Fana Fillah                   | G6401211001 |
 | 2   | Muhammad Tegar Santoso             | G640120XXXX |
 | 3   | Stanislaus Brillant Kusuma Wijaya  | G640120XXXX |
 | 4   | Zahra Fitriani                     | G6401201038 |
@@ -38,3 +38,47 @@ Hasty Paste adalah tempat paste yang cepat atau paste bin yang ditulis dengan Py
 11. Gambar Docker Ringan: Ada gambar Docker yang ringan yang dapat kita gunakan, sehingga tidak membebani sistem terlalu banyak.
 
 ## Simulasi Penggunaan Hasty Paste
+
+## Review Hasty Pase dengan Pastebin
+Hasty Paste adalah aplikasi web paste bin berbasis Python (menggunakan Quart) yang dirancang untuk menjadi cepat dan minimalis. Diciptakan untuk mudah dijalankan tanpa membebani sumber daya dan tanpa menggunakan JavaScript berlebihan. Hasty Paste menggunakan sistem penyimpanan flat-file yang dapat didistribusikan.
+
+**Kelebihan Hasty Paste**
+1. Ringan dan sederhana.
+2. Tidak memerlukan database.
+3. Akses publik tanpa login.
+4. ID acak untuk keamanan.
+5. Tema gelap dan pilihan sorotan kode.
+6. Tidak memerlukan JavaScript.
+7. Antarmuka untuk pengembang dan pilihan penyimpanan yang fleksibel.
+
+**Kekurangan Hasty Paste**
+1. Tidak mendukung JavaScript.
+2. Tidak ada dukungan database.
+
+Pastebin adalah situs web yang memungkinkan pengguna menyimpan teks secara online untuk memudahkan berbagi. Umumnya digunakan oleh para programmer untuk menyimpan potongan kode atau informasi konfigurasi. Pastebin memungkinkan pengguna membuat paste publik atau pribadi dengan dukungan penyorotan sintaks berbagai bahasa pemrograman.
+
+**Kelebihan Pastebin**
+1. Dukungan untuk berbagai bahasa pemrograman.
+2. Pengguna dapat membuat paste publik atau pribadi.
+3. Pengelompokan paste dalam daftar atau direktori.
+
+**Kekurangan Pastebin**
+1. Pendaftaran diperlukan untuk fitur penuh.
+2. Tidak ada opsi paste yang berlaku terbatas waktu pada versi dasar.
+3. Pembaruan antarmuka pengguna mungkin kurang responsif.
+
+## Perbandingan Hasty Paste dengan Pastebin
+**Persamaan**
+Keduanya merupakan suaru layanan paste bin yang memungkinkan pengguna menyimpan dan berbagi teks secara online
+
+**Perbedaan**
+1. Hasty Paste lebih fokus pada kesederhanaan, kecepatan, dan penggunaan minimal sumber daya.
+2. Pastebin menawarkan lebih banyak fitur terkait bahasa pemrograman, penyimpanan pribadi, dan pengelompokan paste.
+
+**Kesimpulan**
+1. Hasty Paste is a fast and minimal paste bin.
+2. Jika pengguna menginginkan solusi yang cepat, minimalis, dan tidak memerlukan banyak fitur tambahan, Hasty Paste mungkin menjadi pilihan yang baik.
+3. Jika pengguna memerlukan lebih banyak opsi terkait bahasa pemrograman, penyimpanan pribadi, dan fitur organisasi, Pastebin mungkin lebih sesuai.
+
+
+
