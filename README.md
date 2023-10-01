@@ -69,7 +69,7 @@ Pastebin adalah situs web yang memungkinkan pengguna menyimpan teks secara onlin
 
 ## Perbandingan Hasty Paste dengan Pastebin
 **Persamaan**
-Keduanya merupakan suaru layanan paste bin yang memungkinkan pengguna menyimpan dan berbagi teks secara online
+Keduanya merupakan suatu layanan paste bin yang memungkinkan pengguna menyimpan dan berbagi teks secara online
 
 **Perbedaan**
 1. Hasty Paste lebih fokus pada kesederhanaan, kecepatan, dan penggunaan minimal sumber daya.
