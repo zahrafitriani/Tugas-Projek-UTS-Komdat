@@ -1,15 +1,15 @@
-## Halo selamat datang pada Tugas-Projek-UTS-Komdat
+# Halo selamat datang pada Tugas-Projek-UTS-Komdat
 **Tugas ini dibuat dengan penuh cinta oleh kelompok 6** :
 
 | No. | Nama                               | NIM         |
 | --- | ---------------------------------- | ----------- |
 | 1   | Ismy Fana Fillah                   | G6401211001 |
 | 2   | Muhammad Tegar Santoso             | G6401211086 |
-| 3   | Stanislaus Brillant Kusuma Wijaya  | G640120XXXX |
+| 3   | Stanislaus Brillant Kusuma Wijaya  | G6401211063 |
 | 4   | Zahra Fitriani                     | G6401201038 |
 
 
-
+# Hasty Paste 
 ## Berkenalan dengan Hasty Paste
 ![](https://enchantedcode.co.uk/hasty-paste/assets/showcase.png)
 Hasty Paste adalah tempat paste yang cepat atau paste bin yang ditulis dengan Python menggunakan Quart. Biasanya digunakan untuk berbagi log debug dan informasi sejenis untuk membantu para pengembang dalam memberikan dukungan teknis. Tidak diperlukan Database, dan semuanya disimpan sebagai flat file. Hasty Paste menggunakan minimal resource pada Network Attached Storage (NAS) yang kita miliki dan tidak diperlukan JavaScript.
@@ -117,7 +117,7 @@ Hasty Paste adalah tempat paste yang cepat atau paste bin yang ditulis dengan Py
 
 ## Simulasi Penggunaan Hasty Paste
 
-## Review Hasty Pase dengan Pastebin
+## Review Hasty Pase dengan Pastebin dan bepasty
 Hasty Paste adalah aplikasi web paste bin berbasis Python (menggunakan Quart) yang dirancang untuk menjadi cepat dan minimalis. Diciptakan untuk mudah dijalankan tanpa membebani sumber daya dan tanpa menggunakan JavaScript berlebihan. Hasty Paste menggunakan sistem penyimpanan flat-file yang dapat didistribusikan.
 
 **Kelebihan Hasty Paste**
@@ -145,6 +145,19 @@ Pastebin adalah situs web yang memungkinkan pengguna menyimpan teks secara onlin
 2. Tidak ada opsi paste yang berlaku terbatas waktu pada versi dasar.
 3. Pembaruan antarmuka pengguna mungkin kurang responsif.
 
+Bepasty adalah situs web seperti pastebin untuk setiap jenis file seperti teks, gambar, audio, video, dokumen. Bepasty memiliki fitur untuk dapat mengunggah beberapa file sekaligus, hanya dengan drag and drop.
+
+**Kelebihan Bepasty**
+1. Open source.
+2. Tersedia dalam berbagai platform.
+3. Dapat mengenkripsi data clipboard.
+4. Kostumisasi lebih lanjut.
+
+**Kekurangan Bepasty**
+1. Pengaturan dan konfigurasi tergolong rumit.
+2. Memerlukan pengaturan awal.
+3. Kompatibilitas terbatas.
+   
 ## Perbandingan Hasty Paste dengan Pastebin
 **Persamaan**
 Keduanya merupakan suatu layanan paste bin yang memungkinkan pengguna menyimpan dan berbagi teks secara online
@@ -157,6 +170,19 @@ Keduanya merupakan suatu layanan paste bin yang memungkinkan pengguna menyimpan 
 1. Hasty Paste is a fast and minimal paste bin.
 2. Jika pengguna menginginkan solusi yang cepat, minimalis, dan tidak memerlukan banyak fitur tambahan, Hasty Paste mungkin menjadi pilihan yang baik.
 3. Jika pengguna memerlukan lebih banyak opsi terkait bahasa pemrograman, penyimpanan pribadi, dan fitur organisasi, Pastebin mungkin lebih sesuai.
+
+
+## Perbandingan Hasty Paste dengan bepasty
+**Persamaan**
+Kedua aplikasi ini adalah alat manajemen clipboard yang memungkinkan pengguna menyimpan dan mengakses history clipboard mereka.
+
+**Perbedaan**
+1. Hasty Paste adalah aplikasi yang tidak open source, sementara Be Pasty adalah open source.
+2. Bepasty menekankan lebih banyak pada keamanan dan privasi, sementara Hasty Paste lebih sederhana dan mudah digunakan.
+
+**Kesimpulan**
+1. jika keamanan dan kustomisasi adalah prioritas, Bepasty menjadi pilihan yang lebih baik karena sifat open source-nya.
+2. jika mencari solusi yang lebih sederhana dan mudah digunakan, Hasty Paste menjadi pilihan yang baik.
 
 
 
