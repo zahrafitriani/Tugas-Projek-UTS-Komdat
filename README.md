@@ -244,5 +244,5 @@ Kedua aplikasi ini adalah alat manajemen clipboard yang memungkinkan pengguna me
 1. https://github.com/awesome-selfhosted/awesome-selfhosted#pastebins
 2. https://enchantedcode.co.uk/hasty-paste/index.html
 3. https://enchantedcode.co.uk/hasty-paste/index.html
-
-
+4. https://jagoweb.com/docker--pengenalan-dan-cara-install-docker-pada-vps-ubuntu
+5. https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal?tabs=ubuntu
