@@ -4,10 +4,12 @@
 
 
 
-[Tim Penulis](#tim-penulis) | [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Simulasi](#simulasi-penggunaan) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+[Tim Penulis](#tim-penulis) | [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Simulasi](#simulasi-penggunaan) | [Review Apps](#review) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:
 
 # Tim Penulis
+[`^ kembali ke atas ^`](#)
+
 **Tugas ini dibuat dengan penuh cinta oleh kelompok 6** :
 
 | No. | Nama                               | NIM         |
@@ -22,6 +24,7 @@ Oiya dalam project kali ini, kami memilih untuk melakukan hosting terhadap :
 sumber: (https://github.com/awesome-selfhosted/awesome-selfhosted#pastebins) -> "Hasty Paste"
 
 # Sekilas Tentang
+[`^ kembali ke atas ^`](#)
 ## Berkenalan dengan Hasty Paste
 ![](https://enchantedcode.co.uk/hasty-paste/assets/showcase.png)
 Hasty Paste adalah tempat paste yang cepat atau paste bin yang ditulis dengan Python menggunakan Quart. Biasanya digunakan untuk berbagi log debug dan informasi sejenis untuk membantu para pengembang dalam memberikan dukungan teknis. Tidak diperlukan Database, dan semuanya disimpan sebagai flat file. Hasty Paste menggunakan minimal resource pada Network Attached Storage (NAS) yang kita miliki dan tidak diperlukan JavaScript.
@@ -32,11 +35,11 @@ Hasty Paste adalah tempat paste yang cepat atau paste bin yang ditulis dengan Py
 3. Proses instalasi yang cukup sederhana dibandingkan beberapa aplikasi lainnya.
 4. Menggunakan bahasa pemrograman python yang sudah umum.
 
-## Fitur Utama Hasty paste (sumber: https://enchantedcode.co.uk/hasty-paste/index.html):
+## Fitur Utama Hasty paste
 1. Paste dan Simpan Cepat (Paste and Download): Memungkinkan kita dengan cepat menempelkan teks dan menyimpannya untuk dibagikan.
 2. Akses Publik, Tanpa Perlu Login (Share): Orang bisa mengaksesnya tanpa harus mendaftar atau masuk.
 
-## Fitur lain dari Hasty Paste (sumber: https://enchantedcode.co.uk/hasty-paste/index.html):
+## Fitur lain dari Hasty Paste
 1. ID Acak untuk Keamanan: Menghasilkan ID acak untuk setiap teks yang kita simpan. Juga, ada opsi ID yang lebih panjang untuk menjaga keamanan.
 2. Paste yang Berlaku Terbatas Waktu: Kita bisa membuat teks yang akan hilang setelah beberapa waktu.
 3. Tema Gelap: Ada pilihan tampilan gelap untuk mata yang lebih nyaman saat malam hari.
@@ -50,7 +53,8 @@ Hasty Paste adalah tempat paste yang cepat atau paste bin yang ditulis dengan Py
 11. Gambar Docker Ringan: Ada gambar Docker yang ringan yang dapat kita gunakan, sehingga tidak membebani sistem terlalu banyak.
 
 # Instalasi
-## Membuat Virtual Machine
+[`^ kembali ke atas ^`](#)
+## Membuat Virtual Machine (Microsoft Azure)
 1. Membuat akun microsoft azure dengan email ipb.ac.id
 2. Claim student benefit ($100, 365 hari)
 3. Membuat recource dan pilih "Ubuntu Server 20.04 LTS"
@@ -131,8 +135,11 @@ Hasty Paste adalah tempat paste yang cepat atau paste bin yang ditulis dengan Py
    ```http://20.2.232.48:8000/```
 
 # Simulasi Penggunaan
+[`^ kembali ke atas ^`](#)
 
-# Review Hasty Pase dengan Pastebin dan bepasty
+# Review 
+[`^ kembali ke atas ^`](#)
+## Membadingkan Hasty Pase dengan Pastebin dan bepasty
 
 ## Hasty Paste
 Hasty Paste adalah aplikasi web paste bin berbasis Python (menggunakan Quart) yang dirancang untuk menjadi cepat dan minimalis. Diciptakan untuk mudah dijalankan tanpa membebani sumber daya dan tanpa menggunakan JavaScript berlebihan. Hasty Paste menggunakan sistem penyimpanan flat-file yang dapat didistribusikan.
@@ -203,5 +210,10 @@ Kedua aplikasi ini adalah alat manajemen clipboard yang memungkinkan pengguna me
 1. jika keamanan dan kustomisasi adalah prioritas, Bepasty menjadi pilihan yang lebih baik karena sifat open source-nya.
 2. jika mencari solusi yang lebih sederhana dan mudah digunakan, Hasty Paste menjadi pilihan yang baik.
 
+# Referensi
+[`^ kembali ke atas ^`](#)
+1. https://github.com/awesome-selfhosted/awesome-selfhosted#pastebins
+2. https://enchantedcode.co.uk/hasty-paste/index.html
+3. https://enchantedcode.co.uk/hasty-paste/index.html
 
 
