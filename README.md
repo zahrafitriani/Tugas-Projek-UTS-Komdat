@@ -67,6 +67,8 @@ Pastebin adalah situs web yang memungkinkan pengguna menyimpan teks secara onlin
 2. Tidak ada opsi paste yang berlaku terbatas waktu pada versi dasar.
 3. Pembaruan antarmuka pengguna mungkin kurang responsif.
 
+Bepasty adalah situs web seperti pastebin untuk setiap jenis file seperti teks, gambar, audio, video, dokumen. Bepasty memiliki fitur untuk dapat mengunggah beberapa file sekaligus, hanya dengan drag and drop.
+
 **Kelebihan Bepasty**
 1. Open source.
 2. Tersedia dalam berbagai platform.
@@ -91,7 +93,6 @@ Keduanya merupakan suatu layanan paste bin yang memungkinkan pengguna menyimpan 
 2. Jika pengguna menginginkan solusi yang cepat, minimalis, dan tidak memerlukan banyak fitur tambahan, Hasty Paste mungkin menjadi pilihan yang baik.
 3. Jika pengguna memerlukan lebih banyak opsi terkait bahasa pemrograman, penyimpanan pribadi, dan fitur organisasi, Pastebin mungkin lebih sesuai.
 
-Bepasty adalah situs web seperti pastebin untuk setiap jenis file seperti teks, gambar, audio, video, dokumen. Bepasty memiliki fitur untuk dapat mengunggah beberapa file sekaligus, hanya dengan drag and drop.
 
 ## Perbandingan Hasty Paste dengan bepasty
 **Persamaan**
