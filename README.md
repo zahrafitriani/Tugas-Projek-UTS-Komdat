@@ -37,6 +37,84 @@ Hasty Paste adalah tempat paste yang cepat atau paste bin yang ditulis dengan Py
 10. Penggunaan Cache: Aplikasi ini menggunakan sistem cache untuk membuatnya berjalan lebih cepat dan efisien.
 11. Gambar Docker Ringan: Ada gambar Docker yang ringan yang dapat kita gunakan, sehingga tidak membebani sistem terlalu banyak.
 
+## Instalasi Hasty Paste
+### Membuat Virtual Machine
+1. Membuat akun microsoft azure dengan email ipb.ac.id
+2. Claim student benefit ($100, 365 hari)
+3. Membuat recource dan pilih "Ubuntu Server 20.04 LTS"
+4. Ketika membuat resource akan diminta mengisi "username" dan "password"
+5. Lakukan pengaturan pada bagian "Networking" untuk menambahkan "inbound port rule" pada port 8000 (sesuai port pada aplikasi yang ingin dideploy)
+
+### Setup Docker di VPS
+1. Connect ssh pada terminal dengan username dan password ketika membuat recource
+    
+    ```
+    $ ssh compe@20.255.61.144
+    compe@20.255.61.144's password: 
+    ```
+
+2. Meng-install beberapa package dan setup docker repository
+    
+    ```
+    $ sudo apt update
+    $ sudo apt install apt-transport-https ca-certificates curl software-properties-common
+    $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+    $ sudo apt update
+    ```
+
+3. Meng-install Docker
+    
+    ```$ sudo apt install docker-ce```
+
+4. Memberikan akses untuk menjalankan perintah docker ke user
+    
+    ```
+    $ sudo usermod -aG docker  ${USER}
+    $ su - ${USER}
+    ```
+
+### Buat dan Jalankan Container di VPS
+1. Buat folder
+
+    ```
+    $ mkdir hasty-paste
+    $ cd hasty-paste
+    ```
+
+2. Buat file docker-compose.yml
+    
+    Jalankan command berikut
+
+    ```$ nano docker-compose.yml```
+    Kemudian paste dengan isi sebagai berikut:
+    ```
+    version: "3"
+
+    services:
+      paste-bin:
+        container_name: paste-bin
+        image: ghcr.io/enchant97/hasty-paste:1
+        restart: unless-stopped
+        volumes:
+          - data:/app/data
+        ports:
+          - 8000:8000
+        environment:
+          - "TIME_ZONE=Etc/GMT+7"
+
+    volumes:
+      data:
+    ```
+    
+    Perhatikan bahwa service dijalankan pada port 8000
+
+3. Jalankan Container
+    
+    ```$ docker compose up -d --build```
+
+4. Service dapat diakses pada `http://20.2.232.48:8000/`
+
 ## Simulasi Penggunaan Hasty Paste
 
 ## Review Hasty Pase dengan Pastebin
