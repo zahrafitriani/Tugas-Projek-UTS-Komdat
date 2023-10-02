@@ -8,6 +8,7 @@
 | 3   | Stanislaus Brillant Kusuma Wijaya  | G6401211063 |
 | 4   | Zahra Fitriani                     | G6401201038 |
 
+Oiya dalam project kali ini, kami memilih untuk melakukan hosting terhadap :
 
 # Hasty Paste 
 ## Berkenalan dengan Hasty Paste
