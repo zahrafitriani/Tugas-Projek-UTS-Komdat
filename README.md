@@ -3,7 +3,7 @@
 <h1 align="center"><img src="https://repository-images.githubusercontent.com/518134137/a79f79c4-ffe5-4750-ad58-4be748896b07"></h1>
 
 
-
+# Navigasi :
 [Tim Penulis](#tim-penulis) | [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Simulasi](#simulasi-penggunaan) | [Review Apps](#review) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:
 
@@ -36,21 +36,20 @@ Hasty Paste adalah tempat paste yang cepat atau paste bin yang ditulis dengan Py
 4. Menggunakan bahasa pemrograman python yang sudah umum.
 
 ## Fitur Utama Hasty paste
-1. Paste dan Simpan Cepat (Paste and Download): Memungkinkan kita dengan cepat menempelkan teks dan menyimpannya untuk dibagikan.
-2. Akses Publik, Tanpa Perlu Login (Share): Orang bisa mengaksesnya tanpa harus mendaftar atau masuk.
+1. Salin dan Unduh Cepat (Paste and Download)      : Memungkinkan kita dengan cepat menempelkan teks dan menyimpannya untuk dibagikan.
+2. Akses Publik! Tanpa Perlu Login (Share)         : Orang bisa mengaksesnya tanpa harus mendaftar atau masuk.
 
 ## Fitur lain dari Hasty Paste
-1. ID Acak untuk Keamanan: Menghasilkan ID acak untuk setiap teks yang kita simpan. Juga, ada opsi ID yang lebih panjang untuk menjaga keamanan.
-2. Paste yang Berlaku Terbatas Waktu: Kita bisa membuat teks yang akan hilang setelah beberapa waktu.
-3. Tema Gelap: Ada pilihan tampilan gelap untuk mata yang lebih nyaman saat malam hari.
-4. Sorotan Kode Opsional: Jika kita menempelkan kode, ada pilihan untuk menyoroti sintaksnya agar lebih mudah dibaca.
-5. Tanpa Perlu JavaScript: Kita tidak harus mengaktifkan JavaScript di peramban kita, aplikasi ini tetap berfungsi.
-6. Ringan untuk Komputer: Dirancang agar tidak terlalu berat bagi komputer atau perangkat kita.
-7. Punya Antarmuka untuk Pengembang: Ada cara bagi pengembang untuk berinteraksi dengan aplikasi ini melalui antarmuka pemrograman aplikasi (API).
-8. Pilih Sistem Penyimpanan Kita: Kita bisa memilih jenis sistem penyimpanan yang ingin kita gunakan, baik yang sudah ada atau yang disesuaikan.
-9. Penyimpanan Berkas Kustom: Kita bisa mengatur sistem penyimpanan berkas kita sendiri.
-10. Penggunaan Cache: Aplikasi ini menggunakan sistem cache untuk membuatnya berjalan lebih cepat dan efisien.
-11. Gambar Docker Ringan: Ada gambar Docker yang ringan yang dapat kita gunakan, sehingga tidak membebani sistem terlalu banyak.
+1. *Random ID*    : Menghasilkan ID acak untuk setiap teks yang kita simpan. Juga, ada opsi ID yang lebih panjang untuk menjaga keamanan.
+2. *Atur Durasi*  : Kita bisa membuat teks yang akan hilang setelah beberapa waktu.
+3. *Dark mode*    : Tentu saja biar gak silau. 😎
+4. *Hightlighter* : Jika kita menempelkan kode, ada pilihan untuk menyoroti sintaksnya agar lebih mudah dibaca.
+5. *Tanpa JavaScript* : Berfungsi normal tanpa javascript!
+6. *Ringan*  : Dirancang untuk kemudahan akses
+7. *Developer Tools* : Memiliki API untuk para developer berinteraksi dengan aplikasi.
+8. *Penyimpanan Costum* : Kita bisa memilih jenis sistem penyimpanan yang ingin kita gunakan, baik yang sudah ada atau yang disesuaikan.
+9. *Penggunaan Cache* : Aplikasi ini menggunakan sistem cache untuk membuatnya berjalan lebih cepat dan efisien. (Internal & Redis)
+10. *Ada Lighweigth Docker* : Ringan yang dapat kita gunakan, sehingga tidak membebani sistem terlalu banyak. (Alpine Linux)
 
 # Instalasi
 [`^ kembali ke atas ^`](#)
