@@ -87,6 +87,7 @@ Hasty Paste adalah tempat paste yang cepat atau paste bin yang ditulis dengan Py
     Jalankan command berikut
 
     ```$ nano docker-compose.yml```
+    
     Kemudian paste dengan isi sebagai berikut:
     ```
     version: "3"
