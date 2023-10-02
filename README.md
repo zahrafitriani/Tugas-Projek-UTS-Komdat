@@ -1,4 +1,13 @@
 # Halo selamat datang pada Tugas-Projek-UTS-Komdat
+
+<h1 align="center"><img src="https://repository-images.githubusercontent.com/518134137/a79f79c4-ffe5-4750-ad58-4be748896b07"></h1>
+
+
+
+[Tim Penulis](#tim-penulis) | [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Simulasi](#simulasi-penggunaan) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+:---:|:---:|:---:|:---:|:---:|:---:
+
+# Tim Penulis
 **Tugas ini dibuat dengan penuh cinta oleh kelompok 6** :
 
 | No. | Nama                               | NIM         |
@@ -10,7 +19,9 @@
 
 Oiya dalam project kali ini, kami memilih untuk melakukan hosting terhadap :
 
-# Hasty Paste 
+sumber: (https://github.com/awesome-selfhosted/awesome-selfhosted#pastebins) -> "Hasty Paste"
+
+# Sekilas Tentang
 ## Berkenalan dengan Hasty Paste
 ![](https://enchantedcode.co.uk/hasty-paste/assets/showcase.png)
 Hasty Paste adalah tempat paste yang cepat atau paste bin yang ditulis dengan Python menggunakan Quart. Biasanya digunakan untuk berbagi log debug dan informasi sejenis untuk membantu para pengembang dalam memberikan dukungan teknis. Tidak diperlukan Database, dan semuanya disimpan sebagai flat file. Hasty Paste menggunakan minimal resource pada Network Attached Storage (NAS) yang kita miliki dan tidak diperlukan JavaScript.
@@ -38,15 +49,15 @@ Hasty Paste adalah tempat paste yang cepat atau paste bin yang ditulis dengan Py
 10. Penggunaan Cache: Aplikasi ini menggunakan sistem cache untuk membuatnya berjalan lebih cepat dan efisien.
 11. Gambar Docker Ringan: Ada gambar Docker yang ringan yang dapat kita gunakan, sehingga tidak membebani sistem terlalu banyak.
 
-## Instalasi Hasty Paste
-### Membuat Virtual Machine
+# Instalasi
+## Membuat Virtual Machine
 1. Membuat akun microsoft azure dengan email ipb.ac.id
 2. Claim student benefit ($100, 365 hari)
 3. Membuat recource dan pilih "Ubuntu Server 20.04 LTS"
 4. Ketika membuat resource akan diminta mengisi "username" dan "password"
 5. Lakukan pengaturan pada bagian "Networking" untuk menambahkan "inbound port rule" pada port 8000 (sesuai port pada aplikasi yang ingin dideploy)
 
-### Setup Docker di VPS
+## Setup Docker di VPS
 1. Connect ssh pada terminal dengan username dan password ketika membuat recource
     
     ```
@@ -75,7 +86,7 @@ Hasty Paste adalah tempat paste yang cepat atau paste bin yang ditulis dengan Py
     $ su - ${USER}
     ```
 
-### Buat dan Jalankan Container di VPS
+## Buat dan Jalankan Container di VPS
 1. Buat folder
 
     ```
@@ -115,11 +126,15 @@ Hasty Paste adalah tempat paste yang cepat atau paste bin yang ditulis dengan Py
     
     ```$ docker compose up -d --build```
 
-4. Service dapat diakses pada `http://20.2.232.48:8000/`
+4. Service dapat diakses pada
+   
+   ```http://20.2.232.48:8000/```
 
-## Simulasi Penggunaan Hasty Paste
+# Simulasi Penggunaan
 
-## Review Hasty Pase dengan Pastebin dan bepasty
+# Review Hasty Pase dengan Pastebin dan bepasty
+
+## Hasty Paste
 Hasty Paste adalah aplikasi web paste bin berbasis Python (menggunakan Quart) yang dirancang untuk menjadi cepat dan minimalis. Diciptakan untuk mudah dijalankan tanpa membebani sumber daya dan tanpa menggunakan JavaScript berlebihan. Hasty Paste menggunakan sistem penyimpanan flat-file yang dapat didistribusikan.
 
 **Kelebihan Hasty Paste**
@@ -135,6 +150,7 @@ Hasty Paste adalah aplikasi web paste bin berbasis Python (menggunakan Quart) ya
 1. Tidak mendukung JavaScript.
 2. Tidak ada dukungan database.
 
+## Pastebin
 Pastebin adalah situs web yang memungkinkan pengguna menyimpan teks secara online untuk memudahkan berbagi. Umumnya digunakan oleh para programmer untuk menyimpan potongan kode atau informasi konfigurasi. Pastebin memungkinkan pengguna membuat paste publik atau pribadi dengan dukungan penyorotan sintaks berbagai bahasa pemrograman.
 
 **Kelebihan Pastebin**
@@ -147,6 +163,7 @@ Pastebin adalah situs web yang memungkinkan pengguna menyimpan teks secara onlin
 2. Tidak ada opsi paste yang berlaku terbatas waktu pada versi dasar.
 3. Pembaruan antarmuka pengguna mungkin kurang responsif.
 
+## Bepasty
 Bepasty adalah situs web seperti pastebin untuk setiap jenis file seperti teks, gambar, audio, video, dokumen. Bepasty memiliki fitur untuk dapat mengunggah beberapa file sekaligus, hanya dengan drag and drop.
 
 **Kelebihan Bepasty**
