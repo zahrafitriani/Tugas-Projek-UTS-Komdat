@@ -136,6 +136,36 @@ Hasty Paste adalah tempat paste yang cepat atau paste bin yang ditulis dengan Py
 # Simulasi Penggunaan
 [`^ kembali ke atas ^`](#)
 
+## 1. Buka link yang sudah dihosting
+http://20.2.232.48:8000/
+![image](https://github.com/zahrafitriani/Tugas-Projek-UTS-Komdat/assets/80316854/1227134b-2c6a-4738-930a-643d1d42fa5c)
+
+## 2. Tekan tombol "New Paste"
+![image](https://github.com/zahrafitriani/Tugas-Projek-UTS-Komdat/assets/80316854/f71b00cb-0fe5-4861-bfad-4430247472f6)
+
+## 3. Lalu Muncul Seperti ini
+![image](https://github.com/zahrafitriani/Tugas-Projek-UTS-Komdat/assets/80316854/ae20f636-4833-4cb0-9e20-f7aabf496d76)
+
+## 4. Setelah itu langsung isikan saja pesan yang ingin di paste
+![image](https://github.com/zahrafitriani/Tugas-Projek-UTS-Komdat/assets/80316854/c2550d6d-363e-48cb-a1e7-1913803b508e)
+
+## 5. Jangan lupa atur "Title", "Expiry" dan "Syntax Highliter"
+![image](https://github.com/zahrafitriani/Tugas-Projek-UTS-Komdat/assets/80316854/fdffc8bb-e9c3-46cf-bb6b-edf34de570ca)
+![image](https://github.com/zahrafitriani/Tugas-Projek-UTS-Komdat/assets/80316854/6df823ed-9d0d-48f9-9a30-733d843ff245)
+
+## 6. Tadaa! 🥳 paste sudah jadi dan dapat diunduh dengan tombol "Download" dan Share
+![image](https://github.com/zahrafitriani/Tugas-Projek-UTS-Komdat/assets/80316854/3f95e302-40f5-4ddd-88de-ade646f52842)
+
+### *Notes : Disana tombol share tidak bisa diclick karena kami menggunakan hosting gratis yang tidak mendapatkan "https" (not secure), namun paste bisa tetap diakses melalui link berikut :*
+http://20.2.232.48:8000/yvZ13-iISJr
+
+
+
+
+
+
+
+
 # Review 
 [`^ kembali ke atas ^`](#)
 ## Membadingkan Hasty Pase dengan Pastebin dan bepasty
