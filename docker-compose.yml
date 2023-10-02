@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  paste-bin:
+    container_name: paste-bin
+    image: ghcr.io/enchant97/hasty-paste:1
+    restart: unless-stopped
+    volumes:
+      - data:/app/data
+    ports:
+      - 8000:8000
+    environment:
+      - "TIME_ZONE=Etc/GMT+7"
+
+volumes:
+  data:

@@ -4,7 +4,7 @@
 | No. | Nama                               | NIM         |
 | --- | ---------------------------------- | ----------- |
 | 1   | Ismy Fana Fillah                   | G6401211001 |
-| 2   | Muhammad Tegar Santoso             | G640120XXXX |
+| 2   | Muhammad Tegar Santoso             | G6401211086 |
 | 3   | Stanislaus Brillant Kusuma Wijaya  | G640120XXXX |
 | 4   | Zahra Fitriani                     | G6401201038 |
 
